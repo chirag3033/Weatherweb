@@ -239,7 +239,7 @@ sup{
 }
 
 /* footer code */
-footer{
+/* footer{
     width: 100%;
     background-color: var(--main-bg);
 }
@@ -250,7 +250,23 @@ footer p{
     color: #fff;
     line-height: 5rem;
     font-size: 1.4rem;
+} */
+
+.site-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--main-bg);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
+.site-footer p{
+    margin: 0;
+    line-height: 3rem;
+    font-size: 1.4rem;
+}
+
 
 /* responsive code */
 
